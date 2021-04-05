@@ -1,0 +1,89 @@
+html, body {
+	font-family: 'Nunito Sans', sans-serif;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: default;
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+.shadow {
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+}
+
+
+@media only screen and (max-width: 600px) {
+	.desktop-only {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+	.mobile-only {
+		display: none !important;
+	}
+}
