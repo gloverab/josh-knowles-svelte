@@ -24,7 +24,9 @@
 	<Header />
 	<div id='background-image'>
 		<div id='site-content'>
-			<NewsContainer />
+			{#if (!$curRoute.includes('about'))}
+				<NewsContainer />
+			{/if}
 		</div>
 	</div>
 
