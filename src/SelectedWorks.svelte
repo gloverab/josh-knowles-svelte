@@ -93,16 +93,18 @@
     <button on:click={() => activeWork = 0}>
       <h3>Reck (2020)</h3>
       <span>Short film scoring</span>
-
     </button>
+
     <button on:click={() => activeWork = 1}>
       <h3>A Step Back from the Wrong Direction (2020)</h3>
       <span>Neo-classical composition</span>
     </button>
+
     <button on:click={() => activeWork = 2}>
       <h3>Floodstream (2019)</h3>
       <span>Dance film scoring</span>
     </button>
+    
     <button on:click={() => activeWork = 3}>
       <h3>Same (2018)</h3>
       <span>Original work / songwriting</span>

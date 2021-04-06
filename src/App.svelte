@@ -27,25 +27,27 @@
 <main>
 	<Header />
 
-	<SelectedWorks />
-
-	<!-- {#if $curRoute.includes('press')}
-		<Press />
+	{#if $curRoute.includes('press')}
+		<SelectedWorks />
 	{:else}
-		<div id='background-image'>
-			<div id='site-content'>
-				<div id='content-container' class={$curRoute.replace('/', '')}>
-					{#if $curRoute.includes('about')}
-						<About />
-					{:else if $curRoute.includes('contact')}
-						<Contact />
-					{:else}
-						<NewsContainer />
-					{/if}
+		{#if $curRoute.includes('press')}
+			<Press />
+		{:else}
+			<div id='background-image'>
+				<div id='site-content'>
+					<div id='content-container' class={$curRoute.replace('/', '')}>
+						{#if $curRoute.includes('about')}
+							<About />
+						{:else if $curRoute.includes('contact')}
+							<Contact />
+						{:else}
+							<NewsContainer />
+						{/if}
+					</div>
 				</div>
 			</div>
-		</div>
-	{/if} -->
+		{/if}
+	{/if}
 
 </main>
 
