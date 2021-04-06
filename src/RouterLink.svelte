@@ -27,4 +27,8 @@
     color: white;
     font-weight: 300;
   }
+
+  a:hover {
+    border-bottom: 2px solid white;
+  }
 </style>

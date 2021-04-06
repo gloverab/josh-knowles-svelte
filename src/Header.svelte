@@ -15,10 +15,9 @@
     <a href='/' class='mobile-only'><h2>Josh Knowles</h2></a>
 
     <li class='header-nav-li header-nav-li-nav mobile-only ib' onClick={this.expandMenu}><a href='/'>Home</a></li>
-    <RouterLink page={{path: '/home', name: 'Home'}} />
     <RouterLink page={{path: '/about', name: 'About'}} />
     <RouterLink page={{path: '/video', name: 'Video'}} />
-    <RouterLink page={{path: '/music', name: 'Music'}} />
+    <RouterLink page={{path: '/selected-works', name: 'Works'}} />
     <RouterLink page={{path: '/shows', name: 'Shows'}} />
     <RouterLink page={{path: '/press', name: 'Press'}} />
     <RouterLink page={{path: '/contact', name: 'Contact'}} />
