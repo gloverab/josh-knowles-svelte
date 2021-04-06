@@ -7,7 +7,7 @@
     {
       name: 'Floodstream',
       video: 'https://player.vimeo.com/video/467149757',
-      blurb: `Floodstream was a collaboration with dancer Erin Mcnulty, and premiered as part of the Shawna Shea Film Festival’s ‘Spring Into Fall’ Shorts Fest.`,
+      blurb: `This is a sequence from the short film, RECK. To channel the anxiety of the drug-addicted mother looking for her child, I composed with heavily de-tuned strings, manipulated vocal inhales/exhales, and a distorted/pitch-shifted “bass” violin. `,
       quote: 'Knowles’ experimental mixing techniques with his violin, builds a sense of sadness. There’s also somehow hope — a sense that supports the dancers’ movement and presence. All together, it’s a captivating presentation, creating both food for thought and aesthetic wonder.',
       quoteSrc: 'Dance Informa',
       links: [
@@ -24,8 +24,9 @@
     {
       name: 'A Step Back from the Wrong Direction',
       video: 'https://www.youtube.com/embed/v7L5DC5WSL4',
+      blurb: `“A Step Back from the Wrong Direction” is a five-movement instrumental violin piece which I created at the beginning of the COVID-19 lockdown. Movement III (above) is a reflection on the feeling of isolation and yearning that was so prevalent to many during that period of time.`,
       quote: 'Josh Knowles offers New England the kind of music that makes the most sense today: a type of music meant for contemplation, discovery, and healing.',
-      blurb: `A Step Back From the Wrong Direction is a 5-movement neo-classical piece`,
+      quoteSrc: 'Deli Mag',
       links: [
         {
           name: `Premiere on Deli Mag`,
@@ -48,7 +49,7 @@
     {
       name: 'Floodstream',
       video: 'https://player.vimeo.com/video/467149757',
-      blurb: `Floodstream was a collaboration with dancer Erin Mcnulty, and premiered as part of the Shawna Shea Film Festival’s ‘Spring Into Fall’ Shorts Fest.`,
+      blurb: `Floodstream was a collaboration with dancer Erin Mcnulty, and premiered as part of the Shawna Shea Film Festival’s ‘Spring Into Fall’ Shorts Fest. Erin sent me the finished cut with no music set to it. I developed the score around the visuals using electric violin coupled with various pitch modulation, delay and looping techniques.`,
       quote: 'Knowles’ experimental mixing techniques with his violin, builds a sense of sadness. There’s also somehow hope — a sense that supports the dancers’ movement and presence. All together, it’s a captivating presentation, creating both food for thought and aesthetic wonder.',
       quoteSrc: 'Dance Informa',
       links: [
@@ -65,7 +66,7 @@
     {
       name: 'Same',
       video: 'https://www.youtube.com/embed/_drI0UGkKZg',
-      blurb: `Same is an original song, etc`,
+      blurb: `“Same” is an original song. For the music video, I collaborated with Boston Ballet principal dancers Paul Craig and Lia Cirio. Yury Yanowsky, a former Boston Ballet principal dancer and artistic director of Festival Ballet Providence, created the choreography for the piece. `,
       quote: "...a gorgeously haunting pas de deux",
       quoteSrc: 'Pointe Mag',
       links: [

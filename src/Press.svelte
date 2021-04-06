@@ -155,4 +155,19 @@
     width: 47%;
     max-width: 450px;
   }
+
+  @media (max-width: 600px) {
+    .column-left {
+      width: 100%;
+      max-width: none;
+      float: none;
+    }
+
+    .column-right {
+      width: 100%;
+      max-width: none;
+      float: none;
+      margin-left: 0;
+    }
+  }
 </style>

@@ -7,6 +7,7 @@
 	import Contact from "./Contact.svelte";
 	import SelectedWorks from "./SelectedWorks.svelte";
 	import NewsContainer from "./NewsContainer.svelte";
+	import DrawerNav from "./DrawerNav.svelte";
 
 	export let name;
 
@@ -49,9 +50,18 @@
 		{/if}
 	{/if}
 
+	<DrawerNav />
 </main>
 
 <style>
+	main {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
 	#background-image {
 		width: 100vw;
 		height: calc(100vh - 72px);
@@ -80,7 +90,7 @@
 	#content-container {
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
-    padding: 15px;
+    padding: 1rem;
     width: 400px;
 		height: 600px;
     min-height: 220px;
@@ -90,6 +100,7 @@
     color: white;
     text-overflow: clip;
     transition: 0.3s ease all;
+		overflow: scroll;
   }
 
 	#content-container.about {
@@ -102,9 +113,9 @@
 		height: 400px;
 	}
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
+	@media (max-width: 600px) {
+		#site-content {
+			padding: 1rem;
 		}
 	}
 </style>

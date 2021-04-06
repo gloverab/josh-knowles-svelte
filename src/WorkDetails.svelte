@@ -1,14 +1,16 @@
 <script>
+  import { fade } from 'svelte/transition'
+
   export let work
   export let handleClose
 </script>
 
-<div id='work-details'>
+<div id='work-details' in:fade={{ duration: 300 }}>
   <button class='mobile-only' on:click={handleClose}>X</button>
   <h2>{work.name}</h2>
   <iframe src={work.video} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
   <p>{work.blurb}</p>
-  <p class='quote'>{work.quote}</p>
+  <p class='quote'>"{work.quote}" -{work.quoteSrc}</p>
 
   <div id='links'>
     {#each work.links as link}
@@ -73,9 +75,6 @@
     font-size: .9rem;
     color: black;
     display: inline;
-  }
-
-  .work-link:hover {
     text-decoration: underline;
   }
 
@@ -111,6 +110,10 @@
     iframe {
       width: calc(100vw - 4rem);
       height: calc(56.25vw - 4rem);
+    }
+
+    #awards {
+      flex-direction: column;
     }
   }
 </style>
