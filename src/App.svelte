@@ -27,7 +27,7 @@
 <main>
 	<Header />
 
-	{#if $curRoute.includes('press')}
+	{#if $curRoute.includes('selected-works')}
 		<SelectedWorks />
 	{:else}
 		{#if $curRoute.includes('press')}
