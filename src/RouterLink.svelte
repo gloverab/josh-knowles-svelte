@@ -28,6 +28,7 @@
     padding: 0 10px;
     color: white;
     font-weight: 300;
+    white-space: nowrap;
   }
 
   a:hover {

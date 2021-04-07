@@ -46,6 +46,7 @@
 
   h1 {
     text-transform: uppercase;
+    white-space: nowrap;
   }
 
   .left-side {
@@ -85,5 +86,9 @@
   h1, a {
     color: white;
     font-weight: 300;
+  }
+  
+  @media (max-width: 720px) {
+
   }
 </style>
