@@ -110,7 +110,7 @@
 
 	#content-container.contact {
 		width: 400px;
-		height: 400px;
+		height: 300px;
 	}
 
 	@media (max-width: 600px) {

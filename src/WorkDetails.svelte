@@ -3,14 +3,17 @@
 
   export let work
   export let handleClose
+  export let loadingWork
 </script>
 
-<div id='work-details' in:fade={{ duration: 300 }}>
+<div id='work-details' class:show={!loadingWork}>
   <button class='mobile-only' on:click={handleClose}>X</button>
-  <h2>{work.name}</h2>
-  <iframe src={work.video} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <h2>{work.name} {work.year}</h2>
+  <iframe src={work.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h4>{work.type}</h4>
   <p>{work.blurb}</p>
-  <p class='quote'>"{work.quote}" -{work.quoteSrc}</p>
+  <p class='quote'>"{work.quote}"{`${work.quoteSrc ? ' - ' + work.quoteSrc : ''}`}</p>
+
 
   <div id='links'>
     {#each work.links as link}
@@ -42,6 +45,16 @@
 <style>
   #work-details {
     flex: 1;
+    opacity: 0;
+  }
+
+  h4 {
+    margin-top: 1rem;
+  }
+
+  #work-details.show {
+    opacity: 1;
+    transition: .9s ease all;
   }
 
   iframe {
