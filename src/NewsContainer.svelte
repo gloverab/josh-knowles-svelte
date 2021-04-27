@@ -11,12 +11,8 @@
     img='https://i.imgur.com/EDayasa.png'
     ctas={[
       {
-        text: 'Listen on Spotify',
-        link: 'https://open.spotify.com/album/5FvV8KnwRkMFm8LBGAiaRF?si=Imc_EGCxTOSk8NS2FSn9Gg'
-      },
-      {
-        text: 'Listen on Apple',
-        link: 'https://apple.co/30U8Gh0'
+        text: 'Presave on Spotify',
+        link: 'https://distrokid.com/hyperfollow/joshknowles/close'
       },
       {
         text: 'Purchase on Vinyl',
