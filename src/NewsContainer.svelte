@@ -6,13 +6,17 @@
 
 <div in:fade={{ delay: 200, duration: 300 }}>
   <ReleaseNews
-    title='Upcoming'
-    headline='New single "Close" comes out April 30'
+    title='Out Now'
+    headline='New single "Close" is out now'
     img='https://i.imgur.com/EDayasa.png'
     ctas={[
       {
-        text: 'Presave on Spotify',
-        link: 'https://distrokid.com/hyperfollow/joshknowles/close'
+        text: 'Listen on Spotify',
+        link: 'https://open.spotify.com/album/0OSlvUclnAf1iLDxVSuIFk?si=UUQmglenTyeXyZm_uy8Kig'
+      },
+      {
+        text: 'Listen on Apple Music',
+        link: 'https://music.apple.com/us/album/close-single/1561651797'
       },
       {
         text: 'Purchase on Vinyl',
