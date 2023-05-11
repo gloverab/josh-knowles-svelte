@@ -7,40 +7,40 @@
 <div in:fade={{ delay: 200, duration: 300 }}>
   <ReleaseNews
     title='Out Now'
-    headline='New single "Close" is out now'
-    img='https://i.imgur.com/EDayasa.png'
+    headline='New single "Pattern" out everywhere 5/12'
+    img='https://www.dropbox.com/s/uz4wsq0n0e5nnii/pattern-3000x3000.jpeg?raw=1'
     ctas={[
       {
         text: 'Listen on Spotify',
-        link: 'https://open.spotify.com/album/0OSlvUclnAf1iLDxVSuIFk?si=UUQmglenTyeXyZm_uy8Kig'
+        link: 'https://open.spotify.com/artist/2cYJgCe7KbXn1Y4TL0JCrK?si=R5WOBLLNRnGx2rSTtB-uRQ'
       },
       {
         text: 'Listen on Apple Music',
-        link: 'https://music.apple.com/us/album/close-single/1561651797'
+        link: 'https://music.apple.com/us/artist/josh-knowles/635148421'
       },
       {
-        text: 'Purchase on Vinyl',
-        link: 'https://bit.ly/3gbcAs0'
+        text: 'Listen on Bandcamp',
+        link: 'https://joshknowles.bandcamp.com'
       }
     ]}
   />
   <div id='spacer' />
   <ReleaseNews
     title='Recent Release'
-    headline='Orchestral EP "A Step Back From the Wrong Direction" now streaming everywhere:'
-    img='https://m.media-amazon.com/images/I/81CPa5sESkL._SS500_.jpg'
+    headline='New Single "Night and Day" now streaming everywhere:'
+    img='https://www.dropbox.com/s/d8uoxim7lnjiqmy/night-and-day-3000x3000.jpeg?raw=1'
     ctas={[
       {
         text: 'Listen on Spotify',
-        link: 'https://open.spotify.com/album/5FvV8KnwRkMFm8LBGAiaRF?si=Imc_EGCxTOSk8NS2FSn9Gg'
+        link: 'https://open.spotify.com/track/6JzqP1vgB1JxdTspjO3Sbw?si=a86c1a1e7cb94ee2'
       },
       {
         text: 'Listen on Apple',
-        link: 'https://apple.co/30U8Gh0'
+        link: 'https://music.apple.com/us/album/night-and-day/1656454471?i=1656454472&app=itunes'
       },
       {
-        text: 'Purchase on Vinyl',
-        link: 'https://bit.ly/3gbcAs0'
+        text: 'Listen on Bandcamp',
+        link: 'https://joshknowles.bandcamp.com/track/night-and-day'
       }
     ]}
   />

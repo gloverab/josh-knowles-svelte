@@ -103,6 +103,10 @@
 		overflow: scroll;
   }
 
+	#content-container::-webkit-scrollbar {
+    display: none;
+	}
+
 	#content-container.about {
 		width: 100%;
 		height: 100%;
