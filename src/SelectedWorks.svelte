@@ -92,9 +92,13 @@
   }
 </script>
 
+<svelte:head>
+  <title>Josh Knowles Music | Selected Works</title>
+</svelte:head>
+
 <div id='selected-works-wrapper'>
   <div id='works-list'>
-    <h2>Selected Works</h2>
+    <h1>Selected Works</h1>
 
     {#each works as workButton, i}
       <button on:click={() => setActive(i)} class:selected={activeWork === i}>
@@ -179,8 +183,9 @@
     justify-content: space-between;
   }
   
-  h2 {
-    /* text-transform: uppercase; */
+  h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 2rem;
   }
